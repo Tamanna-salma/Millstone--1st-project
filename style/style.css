@@ -92,3 +92,35 @@ margin-bottom: 20px;
 .positon img{
    border-radius: 15px;
 }
+/* <!-- Joined Thousands of Productive Users */
+.users-container{
+  margin-top: 100px;
+  text-align: center;
+    max-width: 1140px;
+    height: 180px;
+ padding: 20px;
+    border-radius: 15px;
+    margin: 125px  46px auto;
+    background-color: #aacfd4;
+}
+.users-heading{
+  font-size: 38px;
+  font-weight: bold;
+  color:#252432 ;
+  margin-bottom: 40px;
+
+}
+.items{
+  display: flex;
+  justify-content:space-evenly;
+}
+.sub-title p{
+  color:#4E47FF;
+  font-size: 70px;
+  font-weight: bold;
+}
+.sub-title h6{
+  color:rgba(12, 11, 20, 0.5) ;
+  font-size: 18px;
+  
+}
