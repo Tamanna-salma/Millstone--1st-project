@@ -124,3 +124,55 @@ margin-bottom: 20px;
   font-size: 18px;
   
 }
+ /* <!-- What our users say --> */
+.card-container{
+  text-align: center;
+    max-width: 1140px;
+ padding: 20px;
+    border-radius: 15px;
+    margin: 125px  46px auto;
+    margin-top: 40px;
+ 
+}
+.card-container h4{
+  font-size: 45px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+.parent-card{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  
+}
+.card{
+  border-radius: 20px;
+  width: 380px;
+  height: 210px;
+  background-color: #FFFFFF;
+  
+}
+.card img{
+border-radius: 100%;
+margin-top: 10px;
+
+}
+.users{
+display: flex;
+gap: 15px;
+
+}
+.card h3{
+  margin-top: 10px;
+}
+
+.card p{
+  margin-top: 20px;
+}
+ .users img{
+margin-left: 20px; 
+
+
+ }
+ 
