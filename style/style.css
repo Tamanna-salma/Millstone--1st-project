@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
  
-    /* background-color: #E7EFFF; */
+    
 }
 /* ........common style */
 
@@ -23,8 +23,8 @@
     border: none;
 }
 .primary-btn-bg:hover{
-  background-color: rgb(218, 232, 238);
-  color: #4E47FF;
+  background-color: rgb(104, 174, 204);
+  color: black;
   font-size: 25px;
   font-weight: bold;
 }
@@ -50,7 +50,9 @@ nav h1{
     text-align: center;
      justify-content: center;
     margin-top: 100px;
-   padding: 20px;  
+   padding: 20px; 
+   
+  
 }
 .center h2 {
 font-size: 50px;
@@ -66,7 +68,7 @@ header{
 
  /* <!--action section start*** */
  main{
-  background-color: #f1f5fa;
+  background-color: #E7EFFF;
  }
  .parent-div{
  display: flex;
@@ -179,7 +181,6 @@ margin-left: 20px;
  .focus-container{
   text-align: center;
     max-width: 1140px;
-    /* height: 440px; */
    padding: 20px;
     border-radius: 15px;
     margin: 125px  46px auto;
@@ -206,33 +207,85 @@ border-radius: 25px;
  }
 
  /* login- form section */
- .div{
+.login-div{
    padding: 130px 230px;
     display: flex;
-    gap: 100px;
+    gap: 90px;
      max-width: 1140px;
  }
- .login-form input[type="text"], .login-form input[type="email"]{
+ .login-form input[type="text"],.login-form input[type="email"]{
   height: 60px;
     border-radius:5px;
     background-color: white;
     width: 100%;
     display: block;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    margin: 15px auto;
     border: none;
     
+ }
+ .login-form{
+margin-top : 5px 10px ;
+font-weight: bold;
  }
  .getting-info{
 width: 50%;
 text-align: center;
 margin-top: 100px;
  }
-
  .getting-info h1{
-  font-size: 70px;
+  font-size: 45px;
   font-weight: bold;
  }
- .login-form input[type="button"]{
-  margin-bottom: 240px;
+ .btn{
+  width: 560px;
+  margin-top: 20px;
+
  }
+ .btn p{
+  padding: 10px ;
+  text-align: center;
+  margin-bottom: 5px;
+ }
+ 
+ /* footer section */
+
+ footer{
+  width: 100%;
+  background-color:white;
+  text-align: center;
+  margin-bottom: 10px;
+
+ }
+ footer h3{
+  font-size: 80px;
+  font-weight: bold;
+  color:#4E47FF ;
+  margin-top: 10px;
+ }
+ footer p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #8987A1;
+  margin-top: 20px;
+ }
+   
+ .manu ul{
+display: flex;
+gap: 40px;
+text-align: center;
+align-items: center;
+justify-content:center;
+ }
+ .manu ul li{
+ list-style: none;
+margin-right: 50px ;
+margin-top: 20px;
+ font-size: 20px;
+     font-weight: bold;
+   color: #8987A1; 
+}
+.manu ul li:hover{
+  color:black;
+
+}
