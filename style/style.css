@@ -66,7 +66,7 @@ header{
 
  /* <!--action section start*** */
  main{
-  background-color: #E7EFFF;
+  background-color: #f1f5fa;
  }
  .parent-div{
  display: flex;
@@ -101,7 +101,7 @@ margin-bottom: 20px;
  padding: 20px;
     border-radius: 15px;
     margin: 125px  46px auto;
-    background-color: #d2e0e0;
+    background-color: #d5dada;
 }
 .users-heading{
   font-size: 38px;
@@ -150,7 +150,7 @@ margin-bottom: 20px;
   border-radius: 20px;
   width: 380px;
   height: 210px;
-  background-color: rgb(195, 215, 221);
+  background-color: #d9e1f0;
   
 }
 .card img{
@@ -175,6 +175,7 @@ margin-left: 20px;
  }
  
  /* <!-- Ready to focus better --> */
+
  .focus-container{
   text-align: center;
     max-width: 1140px;
@@ -202,4 +203,36 @@ margin-left: 20px;
  }
   img{
 border-radius: 25px;
+ }
+
+ /* login- form section */
+ .div{
+   padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+     max-width: 1140px;
+ }
+ .login-form input[type="text"], .login-form input[type="email"]{
+  height: 60px;
+    border-radius:5px;
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
+ }
+ .getting-info{
+width: 50%;
+text-align: center;
+margin-top: 100px;
+ }
+
+ .getting-info h1{
+  font-size: 70px;
+  font-weight: bold;
+ }
+ .login-form input[type="button"]{
+  margin-bottom: 240px;
  }
